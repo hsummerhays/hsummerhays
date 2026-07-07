@@ -4,6 +4,20 @@ Senior Software Engineer with 30+ years of experience modernizing enterprise sof
 
 ***
 
+## 👨‍💻 My Story
+
+My fascination with software began in first grade on a Commodore PET, and I was hooked. I spent countless hours typing BASIC programs from magazines, writing simple games, and experimenting on my VIC-20.
+
+When my VIC-20 was in the repair shop, I wanted to keep working on graphics. I started drawing bit patterns on graph paper, converting them to decimal, and using `POKE` to write directly into memory. I didn't even realize I was teaching myself binary—I was just trying to make the computer do something interesting.
+
+Thirty years later, that same curiosity drives me to build enterprise software, distributed systems, cloud-native applications, and AI-powered tools.
+
+Regardless of the technology, my goal has remained the same:
+
+> **Build software that removes friction, automates the mundane, and helps people focus on what matters.**
+
+***
+
 ### 🚀 Featured Projects
 
 #### 1. [DailyNotes](https://github.com/hsummerhays/DailyNotes)
