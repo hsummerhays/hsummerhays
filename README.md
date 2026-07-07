@@ -1,6 +1,6 @@
 # Hi there, I'm Hugh 👋
 
-Senior Software Engineer with 25+ years of experience building enterprise software in .NET, Java, TypeScript, and Python. Passionate about backend architecture, distributed systems, AI-assisted engineering, and modern software design.
+Senior Software Engineer with 30+ years of experience building enterprise software in .NET, Java, TypeScript, and Python. Passionate about backend architecture, distributed systems, AI-assisted engineering, and modern software design.
 
 ***
 
