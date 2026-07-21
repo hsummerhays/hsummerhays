@@ -1,115 +1,81 @@
-# Hi there, I'm Hugh 👋
+# Hi, I’m Hugh 👋
 
-Senior Software Engineer with 30+ years of experience modernizing enterprise software across .NET, Java, TypeScript, and Python. I enjoy building systems that make information easier to find, workflows easier to automate, and software easier to maintain through Clean Architecture, distributed systems, and AI-assisted engineering.
+**Senior Software Engineer / Technical Lead** with 30+ years of experience modernizing business-critical software across Java, C#/.NET, React/TypeScript, SQL, and cloud-native platforms. I build APIs, integrations, data workflows, and user-facing applications that make information easier to find, workflows easier to automate, and systems easier to maintain.
 
----
+My work spans enterprise modernization, GraphQL and REST APIs, distributed systems, Clean Architecture, data integration, and thoughtful AI-assisted engineering.
 
-## 👨‍💻 My Story
+## 🚀 Featured Projects
 
-My fascination with software began in first grade on a Commodore PET, and I was hooked. I spent countless hours typing BASIC programs from magazines, writing simple games, and experimenting on my VIC-20.
+### [DailyNotes](https://github.com/hsummerhays/DailyNotes)
 
-When my VIC-20 was in the repair shop, I wanted to keep working on graphics. I started drawing bit patterns on graph paper, converting them to decimal, and using `POKE` to write directly into memory. I didn't even realize I was teaching myself binary—I was simply trying to bring an idea to life.
+Multi-tenant knowledge-management and productivity platform with secure authentication, project tracking, full-text search, and an AI roadmap.
 
-More than three decades later, that same curiosity still drives me to build enterprise software, distributed systems, cloud-native applications, and AI-powered tools. I've never been content to simply use technology—I want to understand how it works, why it works, and how it can solve real problems.
+`C#` `ASP.NET Core` `React` `TypeScript` `PostgreSQL` `EF Core` `Vite` `JWT` `Clean Architecture`
 
-Over the years, the questions have changed:
+### [enterprise-express](https://github.com/hsummerhays/enterprise-express)
 
-> **As a kid:**  
-> *How do I get pixels on the screen?*
->
-> **In manufacturing:**  
-> *How do I automate this process?*
->
-> **With VSAT:**  
-> *How do I communicate with this hardware?*
->
-> **With SellMedia:**  
-> *How do I model this business?*
->
-> **With ArchiveLens:**  
-> *How do I recover decades of knowledge?*
+Enterprise-grade TypeScript and Express reference architecture demonstrating Clean Architecture, dependency injection, request validation, security, OpenAPI, and production-ready backend patterns.
 
-Regardless of the technology, my goal has remained the same:
+`Node.js` `Express` `TypeScript` `REST` `OpenAPI` `JWT` `Clean Architecture` `Docker`
 
-> **I strive to build software that removes friction, automates the mundane, and helps people focus on what matters.**
+### [ArchiveLens](https://github.com/hsummerhays/ArchiveLens)
 
-> **Different technologies. Different industries. Different problems. Same curiosity.**
+Local-first AI knowledge platform for indexing Outlook/PST archives, documentation, and source code with hybrid search and retrieval-assisted workflows.
 
----
+`Python` `SQLite` `Claude` `FastEmbed` `RAG` `Vector Search` `ETL` `Local-first`
 
-### 🚀 Featured Projects
+### [MongoToPostgres](https://github.com/hsummerhays/MongoToPostgres)
 
-#### 1. [DailyNotes](https://github.com/hsummerhays/DailyNotes)
+Repeatable data-migration utility supporting schema transformation, validation, and Docker-based execution workflows.
 
-> Multi-tenant .NET 10 knowledge management and productivity platform.
+`MongoDB` `PostgreSQL` `Docker` `ETL` `Data Validation`
 
-- **Technology:** `dotnet`, `aspnet-core`, `react`, `postgresql`, `ef-core`, `vite`
-- **Architecture & Design:** `clean-architecture`, `jwt`, `multitenant`, `rest-api`
-- **Problem Domain:** `knowledge-management`, `productivity`
+### [JavaWithKafka](https://github.com/hsummerhays/JavaWithKafka)
 
-#### 2. [ArchiveLens](https://github.com/hsummerhays/ArchiveLens)
+Distributed, event-driven microservices exploring Kafka, virtual threads, Redis, PostgreSQL, idempotency, and resilient messaging patterns.
 
-> AI-powered Outlook/PST knowledge indexing and email intelligence platform.
+`Java` `Spring Boot` `Kafka` `Redis` `PostgreSQL` `Microservices` `Docker`
 
-- **Technology:** `python`, `sqlite`, `anthropic-claude`, `fastembed`, `win32com`
-- **Architecture & Design:** `rag`, `vector-search`, `local-first`, `hybrid-search`, `etl`
-- **Problem Domain:** `knowledge-management`, `email-intelligence`, `pst-parsing`
+### [JobTrackerSync](https://github.com/hsummerhays/JobTrackerSync)
 
-#### 3. [JobTrackerSync](https://github.com/hsummerhays/JobTrackerSync)
+Workflow-aware job parsing and synchronization engine for extracting, scoring, and tracking opportunities from PDF documents.
 
-> Workflow-aware PDF job parsing and synchronization engine.
+`Python` `SQLite` `PyPDF` `OCR` `ETL` `CLI` `Automation`
 
-- **Technology:** `python`, `sqlite`, `rich`, `pypdf`, `ocr`
-- **Architecture & Design:** `etl`, `synchronization`, `workflow`, `document-processing`, `cli`
-- **Problem Domain:** `job-search`, `pdf-parsing`, `automation`
+## 🎯 Engineering Focus
 
-#### 4. [enterprise-express](https://github.com/hsummerhays/enterprise-express)
+- Modernizing legacy enterprise systems without losing the business knowledge they contain.
+- Designing maintainable APIs, integrations, and data workflows.
+- Building local-first AI and semantic-search tools that improve knowledge discovery.
+- Applying Clean Architecture and domain-driven design to keep codebases adaptable.
+- Creating resilient, event-driven systems for asynchronous and enterprise-scale workloads.
 
-> Enterprise-grade TypeScript/Express reference architecture demonstrating Clean Architecture, dependency inversion, security, and production-ready backend patterns.
+## 🛠️ Core Competencies & Tech Stack
 
-- **Technology:** `nodejs`, `express`, `typescript`
-- **Architecture & Design:** `clean-architecture`, `hexagonal-architecture`, `onion-architecture`, `dependency-injection`, `jwt`, `openapi`, `rest-api`
+- **Backend:** Java/Spring Boot, C#/.NET, Node.js/TypeScript, Python, REST, GraphQL, gRPC
+- **Frontend:** React, TypeScript, Next.js, Vite, Blazor, Vue
+- **Data & Integration:** PostgreSQL, SQL Server, MySQL, MongoDB, Redis, SQLite, ETL, financial and partner integrations
+- **Cloud & Delivery:** Docker, Kubernetes/K3s, AWS, Azure, GitHub Actions, GitLab CI, Terraform
+- **Architecture:** Clean Architecture, microservices, event-driven systems, multi-tenant applications, distributed messaging
+- **AI Engineering:** Claude Code, ChatGPT, GitHub Copilot, Cursor, RAG, semantic search
 
-#### 5. [CodeDialect](https://github.com/hsummerhays/CodeDialect)
+<details>
+<summary><strong>👨‍💻 My Story</strong></summary>
 
-> Interactive platform for programming challenges and learning syntax across multiple languages.
+My fascination with software began in first grade on a Commodore PET. I spent countless hours typing BASIC programs from magazines, writing simple games, and experimenting on my VIC-20.
 
-- **Technology:** `dotnet`, `react`
-- **Problem Domain:** `coding-challenges`, `programming-languages`, `education`
+When my VIC-20 was in the repair shop, I wanted to keep working on graphics. I drew bit patterns on graph paper, converted them to decimal, and used `POKE` to write directly into memory. I did not realize I was teaching myself binary—I was simply trying to bring an idea to life.
 
-#### 6. [JavaWithKafka](https://github.com/hsummerhays/JavaWithKafka)
+More than three decades later, that same curiosity still drives me. The questions have changed:
 
-> Distributed event-driven microservices demonstrating Kafka, virtual threads, Redis, PostgreSQL, and resilient messaging patterns.
+> **As a kid:** How do I get pixels on the screen?  
+> **In manufacturing:** How do I automate this process?  
+> **With VSAT:** How do I communicate with this hardware?  
+> **With SellMedia:** How do I model this business?  
+> **With ArchiveLens:** How do I recover decades of knowledge?
 
-- **Technology:** `java`, `spring-boot`, `kafka`, `apache-kafka`, `vue`
-- **Architecture & Design:** `event-driven`, `microservices`, `distributed-systems`
+I strive to build software that removes friction, automates the mundane, and helps people focus on what matters.
 
-#### 7. [RabbitMqTest](https://github.com/hsummerhays/RabbitMqTest)
+**Different technologies. Different industries. Different problems. Same curiosity.**
 
-> Showcase of asynchronous messaging patterns using RabbitMQ.
-
-- **Technology:** `dotnet`, `rabbitmq`
-- **Architecture & Design:** `messaging`, `asynchronous`, `producer-consumer`
-
----
-
-### 🎯 Engineering Focus
-
-I enjoy building software that:
-
-- **Modernizes legacy enterprise systems** to improve scalability and maintainability.
-- **Improves knowledge discovery** through local-first AI and semantic search.
-- **Automates repetitive workflows** to save engineering time and reduce errors.
-- **Applies Clean Architecture & DDD** to keep codebases robust and adaptable.
-- **Designs resilient distributed systems** that handle enterprise-scale messaging.
-
----
-
-### 🛠️ Core Competencies & Tech Stack
-
-- **Backend Ecosystems:** .NET (C#), Java (Spring Boot), Node.js (TypeScript), Python
-- **AI & Information Retrieval:** Retrieval-Augmented Generation (RAG), Semantic Vector Search, LLM Orchestration & Integration (Claude, OpenAI)
-- **Messaging & Event-Streaming:** Apache Kafka, RabbitMQ
-- **Databases & Storage:** PostgreSQL, SQLite, Vector/Embedding Databases, Entity Framework (EF Core)
-- **Frontend Technologies:** React, Vue, Vite, TailwindCSS
-- **Architectural Paradigms:** Clean Architecture, Domain-Driven Design (DDD), Event-Driven Architecture, Microservices
+</details>
