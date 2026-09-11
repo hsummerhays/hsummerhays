@@ -2,107 +2,118 @@
 
 ### Senior Software Engineer · Technical Lead · Software Modernization
 
-I build and modernize business-critical software using **Java, C#/.NET, TypeScript/React, SQL, and cloud-native architecture**.
+I've spent more than three decades building software to solve real-world problems—from manufacturing automation and satellite communications to enterprise integrations, distributed systems, cloud platforms, and AI-assisted engineering.
 
-Over 30+ years in technology, I've worked across enterprise applications, manufacturing systems, satellite communications, financial integrations, distributed systems, and modern cloud platforms.
+Today I primarily build with **Java/Spring Boot, C#/.NET, React/TypeScript, SQL, and cloud-native technologies**, with a particular interest in modernizing business-critical systems without losing the knowledge embedded in them.
 
-Today I'm especially interested in the intersection of **software modernization, distributed architecture, and AI-assisted engineering**—using modern tools without losing the business knowledge embedded in systems that already work.
+I still approach software much the same way I did when I started: **understand the problem, experiment, learn, and build something useful.**
 
-## 🚀 Featured Projects
+## 🏗️ Current Architecture Work
 
 ### [RelayWorks Integration Platform](https://github.com/hsummerhays/relayworks-integration-platform)
 
-A cloud-native reference platform for reliable, tenant-safe integrations across field operations, accounting, payroll, and related enterprise systems.
+A cloud-native reference platform for reliable, tenant-safe enterprise integrations.
 
-**Demonstrates:** integration architecture, multi-tenancy, provider adapters, transactional Outbox/Inbox, idempotency, safe retries, circuit breaking, OAuth2/API key/mTLS authentication, reconciliation, observability, and operational recovery.
+It explores the problems that make integrations difficult in production: provider abstraction, authentication, asynchronous processing, duplicate delivery, retries, partial failure, reconciliation, observability, and operational recovery.
 
-`C#` `.NET 10` `ASP.NET Core` `Vue 3` `TypeScript` `Azure SQL` `Service Bus` `Container Apps` `Key Vault` `OpenTelemetry` `Terraform`
+**Architecture:** multi-tenancy · adapter pattern · Outbox/Inbox · idempotency · retries · circuit breaking · OAuth2 · observability
+
+`C#` `.NET` `ASP.NET Core` `Vue` `TypeScript` `Azure SQL` `Azure Service Bus` `Key Vault` `OpenTelemetry` `Terraform`
 
 ### [Atlas Enterprise Platform](https://github.com/hsummerhays/atlas-enterprise-platform)
 
-An enterprise shipping and integration reference platform exploring how modern Java systems can integrate multiple external providers behind a consistent domain model.
+A Java enterprise reference platform exploring integrations and distributed workflows behind consistent application and domain boundaries.
 
-**Demonstrates:** Spring Boot architecture, carrier abstraction, event-driven workflows, idempotency, Kafka/RabbitMQ/SQS messaging, OAuth2/JWT security, webhook verification, dead-letter handling, execution auditing, and Java virtual threads.
+**Architecture:** provider abstraction · event-driven workflows · idempotency · messaging · security · webhook verification · dead-letter handling · execution auditing
 
-`Java` `Spring Boot` `PostgreSQL` `Kafka` `RabbitMQ` `Redis` `AWS SQS/SNS` `Docker` `Kubernetes` `Flyway`
+`Java` `Spring Boot` `PostgreSQL` `Kafka` `RabbitMQ` `Redis` `AWS SQS/SNS` `Docker` `Kubernetes`
+
+### Atlas Architecture Course
+
+Atlas also became the foundation for a hands-on architecture course exploring **how and why enterprise systems evolve**.
+
+Rather than treating architecture as a collection of diagrams and patterns, the course follows a working system through architectural decisions involving service boundaries, messaging, resilience, security, cloud deployment, production engineering, and AI-assisted development.
+
+The emphasis is not simply *which pattern to use*, but:
+
+> **What problem are we solving, what tradeoff are we accepting, and how will we know when the architecture needs to evolve again?**
+
+## ☁️ Cloud & Application Engineering
+
+### [DailyNotesGcp](https://github.com/hsummerhays/DailyNotesGcp)
+
+A containerized, event-driven notes platform built with Spring Boot and React and deployed using Google Cloud services.
+
+`Java` `Spring Boot` `React` `PostgreSQL` `MongoDB` `Docker` `Google Cloud`
 
 ### [DailyNotes](https://github.com/hsummerhays/DailyNotes)
 
-A multi-tenant knowledge-management and productivity platform built around Clean Architecture, secure authentication, project tracking, and full-text search.
+A multi-tenant knowledge-management and productivity platform with secure authentication, project tracking, full-text search, and Clean Architecture.
 
-**Demonstrates:** modern .NET application architecture, React integration, multi-tenancy, authentication, and relational data modeling.
-
-`C#` `ASP.NET Core` `React` `TypeScript` `PostgreSQL` `EF Core` `Vite` `JWT`
+`C#` `ASP.NET Core` `React` `TypeScript` `PostgreSQL` `EF Core` `JWT`
 
 ### [JavaWithKafka](https://github.com/hsummerhays/JavaWithKafka)
 
-An event-driven microservices project exploring reliable asynchronous processing with Kafka, Redis, PostgreSQL, idempotency, and modern Java concurrency.
+Event-driven microservices exploring Kafka, Redis, PostgreSQL, idempotency, resilient messaging, and modern Java concurrency.
 
-**Demonstrates:** distributed messaging, resilience patterns, event-driven architecture, and Spring Boot microservices.
+`Java` `Spring Boot` `Kafka` `Redis` `PostgreSQL` `Docker`
 
-`Java` `Spring Boot` `Kafka` `Redis` `PostgreSQL` `Docker` `Microservices`
+## 🤖 AI, Knowledge & Experimentation
 
 ### [ArchiveLens](https://github.com/hsummerhays/ArchiveLens)
 
-A local-first AI knowledge platform for turning Outlook/PST archives, documentation, and source code into searchable organizational knowledge.
+A local-first AI knowledge platform for indexing Outlook/PST archives, documentation, and source code with hybrid and semantic search.
 
-**Demonstrates:** RAG, semantic and hybrid search, embeddings, ETL pipelines, and practical AI-assisted knowledge discovery.
+`Python` `SQLite` `FastEmbed` `RAG` `Vector Search` `ETL`
 
-`Python` `SQLite` `FastEmbed` `RAG` `Vector Search` `ETL` `Local-first`
+### [hdmi-cable-tester](https://github.com/hsummerhays/hdmi-cable-tester)
 
-### [enterprise-express](https://github.com/hsummerhays/enterprise-express)
+A small AI-assisted experiment that turned into a useful hardware/software tool for diagnosing HDMI cables by checking signal integrity, continuity, and pin-level connectivity.
 
-A production-oriented TypeScript/Express reference architecture built around separation of concerns and maintainable backend design.
+I like projects like this because they represent something fundamental about engineering: **a useful solution doesn't have to start as a large project.**
 
-**Demonstrates:** Clean Architecture, dependency injection, validation, security, REST/OpenAPI design, and containerized deployment.
+`PowerShell` `Hardware Integration` `AI-Assisted Development`
 
-`TypeScript` `Node.js` `Express` `REST` `OpenAPI` `JWT` `Docker`
+## 🕰️ Engineering Through the Years
 
-### [MongoToPostgres](https://github.com/hsummerhays/MongoToPostgres)
+Some of my repositories preserve systems and ideas from much earlier in my career. They're here because I think the evolution of software engineering is as interesting as its current state.
 
-A repeatable MongoDB-to-PostgreSQL migration utility with schema transformation, validation, and Docker-based execution.
+### [MfgApp](https://github.com/hsummerhays/MfgApp)
 
-**Demonstrates:** data migration, ETL, validation, repeatability, and operational tooling.
+A manufacturing execution system built to manage production workflows and integrate directly with test equipment.
 
-`MongoDB` `PostgreSQL` `Docker` `ETL`
+It reflects an early theme that has continued throughout my career: **software becomes especially valuable when it connects business processes to the real world.**
 
-### [JobTrackerSync](https://github.com/hsummerhays/JobTrackerSync)
+`Visual Basic 6` `Manufacturing` `Test Equipment` `Process Automation`
 
-A workflow-aware document processing and synchronization engine for extracting, scoring, and tracking structured information from PDF documents.
+### [vsat-xpol-automation](https://github.com/hsummerhays/vsat-xpol-automation)
 
-**Demonstrates:** document ingestion, data extraction, workflow automation, persistence, and CLI tooling.
+A C#/.NET system that automated cross-polarization alignment for VSAT installations by communicating with spectrum-analysis and satellite equipment.
 
-`Python` `SQLite` `PyPDF` `OCR` `ETL` `Automation`
+`C#` `.NET` `SQL Server` `Hardware Integration` `Automation`
 
-## 📚 Architecture Course
+### [DocControl](https://github.com/hsummerhays/DocControl)
 
-### [Atlas Architecture Course](https://github.com/hsummerhays/atlas-architecture-course)
+An engineering document-management system for product structures, engineering change orders, associated documents, and reporting.
 
-A hands-on architecture curriculum built from the Atlas Enterprise Platform. It explores how an enterprise application can evolve incrementally toward distributed, event-driven, cloud-native architecture.
+`Visual Basic 6` `Engineering Systems` `Document Management`
 
-Rather than presenting architecture as a collection of diagrams and patterns, the course uses a working system to explore **why architectural decisions are made, what tradeoffs they introduce, and how systems evolve over time**.
+### [small-business-management](https://github.com/hsummerhays/small-business-management)
 
-Topics include:
+A lightweight application for customer tracking, job management, billing, and other small-business operations.
 
-- Incremental enterprise modernization
-- Service boundaries and distributed systems
-- Event-driven architecture and messaging
-- Idempotency and failure recovery
-- Cloud deployment and infrastructure
-- Security and integration boundaries
-- Architecture decisions and tradeoffs
-- Production engineering practices
-- AI-assisted development with human review and approval
+`VBA` `Business Applications`
 
 ## 🧭 How I Approach Engineering
 
-I tend to gravitate toward problems where **technology and business knowledge meet**:
+I gravitate toward problems where **technology and business knowledge meet**.
 
-- Modernizing legacy systems without throwing away what decades of use have taught us.
-- Breaking large systems into understandable boundaries rather than creating microservices for their own sake.
-- Designing APIs and integrations that behave predictably when networks, dependencies, and data aren't perfect.
-- Using asynchronous messaging, idempotency, retries, observability, and other resilience patterns where they solve real problems.
-- Applying AI to software engineering and knowledge discovery while keeping architecture, testing, and human judgment in the loop.
+* Modernize legacy systems without discarding the knowledge they contain.
+* Find sensible boundaries before reaching for microservices.
+* Design integrations for failure, retries, duplicates, and recovery—not just the happy path.
+* Use messaging, idempotency, observability, and resilience patterns where they solve actual problems.
+* Automate repetitive work while keeping people in control of consequential decisions.
+* Use AI as an engineering accelerator without outsourcing engineering judgment to it.
 
 ## 🛠️ Technology
 
@@ -122,7 +133,7 @@ AWS · Azure · GCP · Docker · Kubernetes/K3s · Terraform · GitHub Actions �
 Clean Architecture · Microservices · Event-Driven Systems · Multi-Tenancy · Distributed Systems · Domain Modeling · Integration Architecture
 
 **AI Engineering**
-RAG · Semantic Search · Local-First AI · Claude Code · ChatGPT · GitHub Copilot
+RAG · Semantic Search · Local-First AI · AI-Assisted Development · Claude Code · ChatGPT · GitHub Copilot
 
 ---
 
@@ -144,7 +155,7 @@ More than three decades later, that same curiosity still drives me. The question
 > **With VSAT:** How do I communicate with this hardware?
 > **With enterprise software:** How do I model this business?
 > **With distributed systems:** How do I make failure predictable?
-> **With AI:** How do I recover and use decades of accumulated knowledge?
+> **With AI:** How can I use these new capabilities to solve useful problems?
 
 Different technologies. Different industries. Different problems.
 
