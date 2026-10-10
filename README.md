@@ -8,6 +8,8 @@ Today I primarily build with **Java/Spring Boot, C#/.NET, React/TypeScript, SQL,
 
 I still approach software much the same way I did when I started: **understand the problem, experiment, learn, and build something useful.**
 
+I’m also building [Summerhays Software Consulting](https://github.com/summerhays-software-consulting), focused on legacy modernization, application architecture, and pragmatic hybrid/cloud engineering.
+
 ## 🔄 Legacy Modernization
 
 Modernization does not have to mean rewriting everything or moving everything to the cloud. The first job is to understand what a system does, why it evolved the way it did, where its risks are, and which parts are still delivering real business value.
