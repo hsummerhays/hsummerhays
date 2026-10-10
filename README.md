@@ -1,12 +1,22 @@
 # Hi, I'm Hugh 👋
 
-### Senior Software Engineer · Technical Lead · Software Modernization
+### Senior Software Engineer · Legacy Modernization · Application Architecture
 
 I've spent more than three decades building software to solve real-world problems—from manufacturing automation and satellite communications to enterprise integrations, distributed systems, cloud platforms, and AI-assisted engineering.
 
-Today I primarily build with **Java/Spring Boot, C#/.NET, React/TypeScript, SQL, and cloud-native technologies**, with a particular interest in modernizing business-critical systems without losing the knowledge embedded in them.
+Today I primarily build with **Java/Spring Boot, C#/.NET, React/TypeScript, SQL, and modern infrastructure**, with a particular interest in modernizing business-critical systems without losing the knowledge embedded in them. I work across **on-premises, cloud, and hybrid environments** rather than assuming every modernization effort has the same destination.
 
 I still approach software much the same way I did when I started: **understand the problem, experiment, learn, and build something useful.**
+
+## 🔄 Legacy Modernization
+
+Modernization does not have to mean rewriting everything or moving everything to the cloud. The first job is to understand what a system does, why it evolved the way it did, where its risks are, and which parts are still delivering real business value.
+
+My approach is to **understand, stabilize, and modernize deliberately**—then choose the architecture and deployment model that make sense for the workload. That may mean a modernized monolith, targeted service extraction, better integrations, containers, managed cloud services, hybrid infrastructure, or keeping selected workloads on-premises.
+
+I am also developing repeatable tooling and methods for **legacy-system discovery, architecture recovery, dependency analysis, safe database inspection, and modernization planning**, including work on a Legacy Modernization Workbench and DataSentry.
+
+> **No predetermined destination. Modernize for maintainability, reliability, security, cost, and business value.**
 
 ## 🏗️ Current Architecture Work
 
@@ -38,7 +48,7 @@ The emphasis is not simply *which pattern to use*, but:
 
 > **What problem are we solving, what tradeoff are we accepting, and how will we know when the architecture needs to evolve again?**
 
-## ☁️ Cloud & Application Engineering
+## 🧩 Application, Cloud & Hybrid Engineering
 
 ### [DailyNotesGcp](https://github.com/hsummerhays/DailyNotesGcp)
 
@@ -108,7 +118,7 @@ A lightweight application for customer tracking, job management, billing, and ot
 
 I gravitate toward problems where **technology and business knowledge meet**.
 
-* Modernize legacy systems without discarding the knowledge they contain.
+* Modernize legacy systems without discarding the knowledge they contain or assuming cloud is always the destination.
 * Find sensible boundaries before reaching for microservices.
 * Design integrations for failure, retries, duplicates, and recovery—not just the happy path.
 * Use messaging, idempotency, observability, and resilience patterns where they solve actual problems.
@@ -126,8 +136,8 @@ React · TypeScript · Next.js · Vue · Blazor
 **Data & Messaging**
 PostgreSQL · SQL Server · MySQL · MongoDB · Redis · SQLite · Kafka · RabbitMQ · Azure Service Bus · AWS SQS/SNS
 
-**Cloud & Delivery**
-AWS · Azure · GCP · Docker · Kubernetes/K3s · Terraform · GitHub Actions · GitLab CI
+**Infrastructure & Delivery**
+On-Premises · Hybrid · AWS · Azure · GCP · Docker · Kubernetes/K3s · Terraform · GitHub Actions · GitLab CI
 
 **Architecture**
 Clean Architecture · Microservices · Event-Driven Systems · Multi-Tenancy · Distributed Systems · Domain Modeling · Integration Architecture
